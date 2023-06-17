@@ -1,0 +1,538 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+</head>
+
+<body>
+
+    <div class="main">
+        <div>
+            <form id="searchForm">
+                <div class="input-group">
+                    <input type="text" id="searchInput" class="form-control" placeholder="Search">
+                    <button id="searchButton" type="button" onclick= "searchAndScroll()">
+                            Search
+                    </button>
+                </div>
+             </form>
+        </div>
+
+        <div class="container-logo" id="top">
+
+            <img class="logo" src="/onepiece/logo.png" alt="logo">
+
+        </div>
+
+        <div class="options">
+            <label for="crews">Choose a Crew:&nbsp;</label>
+
+            <select id="crews" size="1" onchange="window.location.href=this.value;">
+                <option value="#1"><a href="#1">The Red Hair Pirates</a></option>
+                <option value="#2"><a href="#2">The Beasts Pirates</a></option>
+                <option value="#3"><a href="#3">The Big Mom Pirates</a></option>
+                <option value="#4"><a href="#4">The Blackbeard Pirate Fleet</a></option>
+                <option value="#5"><a href="#5">The Straw Hat Pirates</a></option>
+                <option value="#6"><a href="#6">The Golden Lion Pirates</a></option>
+                <option value="#7"><a href="#7">The Kuja Pirates</a></option>
+                <option value="#8"><a href="#8">The Kid Pirates</a></option>
+                <option value="#9"><a href="#9">The Fire Tank Pirates</a></option>
+                <option value="#10"><a href="#10">The Thriller Bark Pirates</a></option>
+                <option value="#11"><a href="#11">The New Giant Warrior Pirates</a></option>
+                <option value="#12"><a href="#12">Buggy's Delivery AKA The "Pirate Dispatch Organization"</a></option>
+                <option value="#13"><a href="#13">The Tontatta Pirates</a></option>
+                <option value="#14"><a href="#14">The Treasure Pirates</a></option>
+                <option value="#15"><a href="#15">The Yonta Maria Grand Fleet</a></option>
+            </select>
+        </div>
+
+
+        <div class="container-main-context">
+            <hr>
+            <div class="crews">
+
+                <div class="crew">
+                    <h2>Most Famous Pirate Crews</h2>
+                    <div class="crew-title">
+                        <h3 id="1">1-The Red Hair Pirates</h3>
+                    </div>
+                    <p>The thing about this top-ranked pirate crew is that no one really knows how strong they are. The
+                        Red Hair Pirates don`t show themselves too often, and when they do they usually get what they
+                        want without fighting much. For example, when they showed up in the Marineford War, led by their
+                        captain Shanks, the mere appearance of them on the battlefield was enough to basically stop the
+                        fighting altogether.
+
+                        According to Commodore Brannew, the Marine Officers who assign bounties to pirates, the Red Hair
+                        crew <a href="https://gamerant.com/one-piece-highest-bounties-ranked/" target="_blank">has the
+                            highest average bounty on the Grand Line.</a>has the highest average bounty on the Grand
+                        Line. So, even if their numbers are more comparable to the Straw Hat main crew than the sheer
+                        size of the Big Mom or Beasts Pirates, it seems like their fighting strength is still about
+                        equal or higher to an Emperor`s army.</p>
+                    <div class="crew-members">
+                        <h4>Notable Crew Members</h4>
+                        <ul>
+                            <li>"Red-Haired" Shanks: 4,048,900,000 Beli Bounty</li>
+                            <li>Rockstar: 94,000,000 Beli Bounty, newest "Elite" member of the crew</li>
+                            <li>Ben Beckman: Unknown Bounty, First Mate</li>
+                            <li>Lucky Roux: Unknown Bounty, Elite Crew Member</li>
+                            <li>The Tobiroppo: A group of people who have real Zoan DF powers, directly underneath the
+                                All-Stars (King, Queen, and Jack)</li>
+                            <li>The Shinuichi: Another group of Gifters directly under the Tobiroppo, though most have
+                                eaten artificial Zoan fruits</li>
+                            <li>The Gifters: The "grunt" level of pirates who have all successfully gained Zoan powers
+                                from SMILE fruits.</li>
+
+                        </ul>
+                    </div>
+                    <hr>
+                    <div class="crew-title">
+                        <h3 id="2">2-The Beasts Pirates</h3>
+                    </div>
+                    <p>
+                        The Beast Pirates are the crew readers/viewers are currently finding out about due to the Wano
+                        Arc. They follow Kaido, <a href="https://gamerant.com/one-piece-kaido-devil-fruit-counters/"
+                            target="_blank">the uncounterable invincible Emporer himself</a> (who seems to be a real
+                        master of all forms of Haki), and there is truly a staggering amount of them.
+                        Plus, because of Kaido`s effort to make the artificial Devil Fruits (called SMILE) with Caesar
+                        Clown and Doflamingo, the majority of his crew has Zoan-type abilities as well. In fact, out of
+                        all the pirates in the land, Kaido probably has the most DF users in his crew. So, that means
+                        that this group of pirates has the power, numbers, prestige, and backing to take it all the way
+                        to the end of the Grand Line.
+                    </p>
+                    <div class="crew-members">
+                        <h4>Notable Crew Members</h4>
+                        <ul>
+                            <li>Kaido "King Of The Beasts": 4,611,100,000 Beli Bounty and Devil Fruit user</li>
+                            <li>Queen, "The Plague": 1,320,000,000 Beli Bounty and Devil Fruit user, Member of Tobiroppo
+                            </li>
+                            <li>"The Wildfire" King: Over 1,000,000 Beli Bounty and Devil Fruit user, Member of
+                                Tobiroppo</li>
+                            <li>Jack, "The Drought": 1,000,000,000 Beli Bounty and Devil Fruit user, Member of Tobiroppo
+                            </li>
+                            <li>The Shinuichi: Another group of Gifters directly under the Tobiroppo, though most have
+                                eaten artificial Zoan fruits</li>
+
+                        </ul>
+                    </div>
+                    <hr>
+                    <div class="crew-title">
+                        <h3 id="3">3-The Big Mom Pirates</h3>
+                    </div>
+                    <p>The Big Mom Pirates are both similar and different to Kaido`s in many ways. On one hand, it`s a
+                        crew made up of thousands of strong members with a ton of DF users mixed in. But, Big Mom
+                        considers her crew to be family while Kaido`s crew only welcomes strength.
+
+                        Sure, Charlotte Linlin is a lot to handle, especially if she gets out of control, but the sheer
+                        variety of powers and specialties her children have in the crew is what makes them so fearsome.
+                        Whether it`s Katakuri`s Mochi powers (<a
+                            href="https://gamerant.com/one-piece-strongest-kenbunshoku-haki-users-ranked/"
+                            target="_blank">or him seeing the future with his Haki</a>), Smoothie`s….smoothie powers,
+                        Cracker's artistic Biscuit abilities, or the candy powers of Perospero.
+                    </p>
+                    <div class="crew-members">
+                        <h4>Notable Crew Members</h4>
+                        <ul>
+                            <li>Charlotte "Big Mom" Linlin: 4,388,000,000 Beli Bounty and Devil Fruit user</li>
+                            <li>Charlotte Katakuri: 1,057,000,000 Beli Bounty and Devil Fruit user</li>
+                            <li>Charlotte Smoothie: 932,000,000 Beli Bounty and Devil Fruit user</li>
+                            <li>Charlotte "Thousand Arms" Cracker: 860,000,000 Beli Bounty and Devil Fruit user</li>
+                            <li>Charlotte Perospero: 700,000,000 Beli Bounty and Devil Fruit user</li>
+
+                        </ul>
+                    </div>
+                    <hr>
+                    <div class="crew-title">
+                        <h3 id="4">4-The Blackbeard Pirate Fleet</h3>
+                    </div>
+                    <p>Finally, we`re getting to the Four Emporers of the New World, with the most dastardly coming
+                        first, that being The Blackbeard Pirates. Marshall D. Teach, the only wielder of two Devil
+                        Fruits (one amazing Paramecia and <a
+                            href="https://gamerant.com/one-piece-logia-type-devil-fruits-ranked/" target="_blank">one
+                            unique Logia</a>), isn`t exactly a combat specialist. But, through his sheer strength, odd
+                        body makeup, underhandedness, and double Devil Fruit powers, he`s managed to beat almost
+                        everyone he`s come up against.
+
+                        At the very least, the guy has always been absurdly strong in the Pirate Warrior spin-off games,
+                        so that's something. Plus, because of his expertly timed attack on Impel Down, Blackbeard was
+                        able to add some truly monstrous members to his crew before the timeskip that have only become
+                        stronger after.</p>
+                    <div class="crew-members">
+                        <h4>Notable Crew Members</h4>
+                        <ul>
+                            <li>"Red-Haired" Shanks: 4,048,900,000 Beli Bounty</li>
+                            <li>Rockstar: 94,000,000 Beli Bounty, newest "Elite" member of the crew</li>
+                            <li>Ben Beckman: Unknown Bounty, First Mate</li>
+                            <li>Lucky Roux: Unknown Bounty, Elite Crew Member</li>
+                            <li>Yassop: Unknown Bounty, Sniper, and Usopp's father</li>
+
+                        </ul>
+                    </div>
+                    <hr>
+                    <div class="crew-title">
+                        <h3 id="5">5-The Straw Hat Pirates</h3>
+                    </div>
+                    <p>
+                        Even without the whole Straw Hat Grand Fleet aspect, The Straw Hat Pirates were always going to
+                        be up there in the rankings. Monkey D. Luffy is basically the 5th New World Emporer at this
+                        point, they've beaten almost everyone they've ever gone up against, and they're very
+                        well-rounded.
+
+                        There are no weak members of the Straw Hats, especially after the Time Skip. Nami learned a ton
+                        of new tricks with her Clima-Tact, Usopp got buff and studied how to use the Pop Greens, and
+                        even Chopper managed to train his odd DF into something powerful enough for the New World. Plus,
+                        both the Dressrosa and Whole Cake Island arcs proved their strength is real in numerous ways,
+                        including some insanely long battles that rivaled even Dragon Ball Z. It’s pretty clear that the
+                        Straw Hats have truly become legendary in their status, strength, and partying potential
+                        (especially when it comes to eating). Still, they're a very small crew compared to all the rest
+                        of the big names in the New World.
+                    </p>
+                    <div class="crew-members">
+                        <h4>Notable Crew Members</h4>
+                        <ul>
+                            <li>Monkey D. Luffy AKA "Straw Hat Luffy": 3,000,000,000 Beli Bounty and Devil Fruit user
+                            </li>
+                            <li>Jinbe, The "Knight Of The Sea": 1,100,000,000 Beli Bounty, Ex-Warlord, and Helmsman</li>
+                            <li>The "Pirate Hunter" Roronoa Zoro: 1,111,000,000 Beli Bounty and First Mate</li>
+                            <li>Sanji "Black Leg" Vinsmoke: 1,032,000,000 Beli Bounty and Cook</li>
+                            <li>"God" Usopp: 500,000,000 Beli Bounty and Sniper</li>
+                            <li>Nico "Devil Child" Robin: 930,000,000 Beli Bounty and Devil Fruit user</li>
+                            <li>"Cyborg" Franky AKA Cutty Flam: 394,000,000 Beli Bounty and Shipwright</li>
+                            <li>"Soul King" Brook : 383,000,000 Beli Bounty, Musician, and Devil Fruit user</li>
+                            <li>"Cat Burglar" Nami: 366,000,000 Beli Bounty and Navigator</li>
+                            <li>Tony Tony Chopper AKA "Cotton Candy Lover": 1,000 Beli...total, Doctor and Devil Fruit
+                                user</li>
+
+                        </ul>
+                    </div>
+                    <hr>
+                    <div class="crew-title">
+                        <h3 id="6">6-The Golden Lion Pirates</h3>
+                    </div>
+                    <p>
+                        The Golden Lion Pirates are canon, considering that Shiki is an actual character in the mainline
+                        story. They come from the film One Piece: Strong World, one of the better OP films, as it turns
+                        out. In any case, this is a crew led by the Golden Lion Shiki, the man who fought with Gol D.
+                        Roger multiple times (and lost). Shiki has the Float-Float Devil Fruit, a Paramecia-type ability
+                        that is much more powerful than it first appears.
+
+                        And, because of this power, his crew gets to travel in style on their flying pirate ship. Now,
+                        the Shiki crew (in their prime) had numbers that rivaled the entire naval force...nowadays they
+                        have a ton of mutant monsters and a few key crew members. Still, this is the man who was the
+                        first ever to escape from Impel Down, was a member of the Rocks Pirates, and had an ongoing
+                        rivalry with Roger. So, of course, his crew is still one of the strongest around.
+                    </p>
+                    <div class="crew-members">
+                        <h4>Notable Crew Members</h4>
+                        <ul>
+                            <li>MShiki The Golden Lion: Unknown Bounty, but he was one of Gol D. Roger's rivals and is a
+                                Devil Fruit user</li>
+                            <li>Dr. Indigo: Unknown Bounty, the genius Scientist who created all of the monsters in the
+                                crew</li>
+                            <li>Scarlet: Unknown Bounty, a literal red gorilla, but surprisingly strong.</li>
+
+                        </ul>
+                    </div>
+                    <hr>
+                    <div class="crew-title">
+                        <h3 id="7">7-The Kuja Pirates</h3>
+                    </div>
+                    <p>
+                        People for some reason seem to forget this, but The Kuja Pirates have always been insanely
+                        strong. For one, they`re led by Boa Hancock, former Warlord of the Sea, who`s basically
+                        unstoppable with the Love-Love Fruit thanks to her unmatched beauty.
+
+                        Two, Boa's second-in-command are her two sisters, both of whom are giant women (but not Giants)
+                        who ate Snake-type Zoan Devil Fruits and can use Haki. Three, the bulk of the crew is made up of
+                        warriors from Amazon Lily, most if not all of which can use Haki as well. And, lastly, they have
+                        a ship that can cross the Calm Belt, which is a rare thing for a pirate to have.
+                    </p>
+                    <div class="crew-members">
+                        <h4>Notable Crew Members</h4>
+                        <ul>
+                            <li>Boa Hancock The "Pirate Empress": 1,659,000,000 Beli Bounty (Pre-Warlord) and Devil
+                                Fruit user</li>
+                            <li>Boa Sandersonia: 40,000,000 Beli Bounty and Devil Fruit user</li>
+                            <li>Boa Marigold: 40,000,000 Beli Bounty and Devil Fruit user</li>
+                            <li>A Crew Full Of Capable Amazon Warriors: All of whom can imbue their arrows with Armament
+                                Haki</li>
+
+                        </ul>
+                    </div>
+                    <hr>
+                    <div class="crew-title">
+                        <h3 id="8">8-The Kid Pirates</h3>
+                    </div>
+                    <p>
+                        Here`s the thing, out of all the pirate crews introduced in the Worst Generation, The Kid
+                        Pirates (outside of the Straw Hats) are probably the strongest on average from crewmate to
+                        crewmate. For example, Trafalgar Law is insanely strong on his own, but the rest of the Heart
+                        Pirates doesn`t seem to be nearly on the same level (sorry Bepo).
+
+                        Meanwhile, The Kid Pirates have Eustass Kid and Killer as their two front liners, two people who
+                        are relatively comparable to Luffy and Zoro. It's unclear how strong the rest of the members of
+                        his crew are, such as the men known as Heat and Wire, but there aren't many of them, so they
+                        must all be at the very least capable. Remember, this crew has gone up against Shanks, Big Mom,
+                        and Kaido and lived to tell the tale.
+                    </p>
+                    <div class="crew-members">
+                        <h4>Notable Crew Members</h4>
+                        <ul>
+                            <li>Eustace "Captain" Kid: 3,000,000,000 Beli Bounty and Devil Fruit user</li>
+                            <li>Killer AKA "Kamazo The Manslayer": 200,000,000 Beli Bounty</li>
+                        </ul>
+                    </div>
+                    <hr>
+                    <div class="crew-title">
+                        <h3 id="9">9-The Fire Tank Pirates</h3>
+                    </div>
+                    <p>
+                        Up now are The Fire Tank Pirates, a crew led by Capone Bege, one of the most memorable members
+                        of the Worst Generation. Bege has the Castle-Castle Devil Fruit, allowing him to keep all his
+                        crew, weapons, and treasure inside his very own body which is literally a fortress. This,
+                        combined with the sheer number of crew members he has, his willingness to do anything to win,
+                        and their villainous nature, makes them one of the most fearsome crews out there. Think about
+                        it, this one man might be hiding hundreds of pirates inside his very own belly at any moment.
+                    </p>
+                    <div class="crew-members">
+                        <h4>Notable Crew Members</h4>
+                        <ul>
+                            <li>Capone Bege: 350,000,000 Beli Bounty and Devil Fruit user</li>
+                            <li>"Monster Gun" Vito: 95,000,000 Beli Bounty</li>
+                            <li>Gotti: 90,000,000 Beli Bounty</li>
+                            <li>Charlotte Chiffon: Unknown Bounty, daughter of Big Mom and wife of Capone</li>
+                        </ul>
+                    </div>
+                    <hr>
+                    <div class="crew-title">
+                        <h3 id="10">10-The Thriller Bark Pirates</h3>
+                    </div>
+                    <p>
+                        Luffy managed to beat Gecko Moria pretty early on in the story, but the guy and his crew are
+                        still pretty powerful. Before Moria decided to leave everything to his subordinates, he was a
+                        pretty good fighter in his own right, even managing to make it to Kaido's domain rather quickly.
+                        Sadly, Kaido and his crew defeated the Gecko Pirates with relative ease, and most of Moria`s
+                        crew was killed in the process.
+
+                        This completely changed Moria`s outlook on life, deciding to make a new crew of zombies he
+                        controlled rather than humans he trusted, which became The Thriller Bark Pirates. Moria has the
+                        largest pirate ship in existence, can "make" a new crew in almost no time flat, and has the
+                        power of a very strong Devil Fruit on his side. Sadly, Absalom is no longer with him, but with
+                        Perona running back to his side, and Hogback making him an endless supply of Zombies (called
+                        "Marios"), Gecko Moria usually has a pretty fearsome crew at his side. Currently, this crew
+                        doesn't seem very strong, which is why it's so low on the list, but given enough time it could
+                        easily ascend the ranks.
+                    </p>
+                    <div class="crew-members">
+                        <h4>Notable Crew Members</h4>
+                        <ul>
+                            <li>Ex-Warlord Gecko Moria: 320,000,000 Beli Bounty and Devil Fruit user</li>
+                            <li>Dr. Hogback: Unknown Bounty, creator of all Moria's zombie "Marios"</li>
+                            <li>"Ghost Princess" Perona: Unknown Bounty, former Commander of both the Wild Zombies and
+                                Surprise Zombies, as well as a Devil Fruit user</li>
+                            <li>Army Of Undead Shadow Zombies: Zombie soldiers of all different strengths that are at
+                                the mercy of Moria's Devil Fruit, the amount of them fluctuates throughout the series,
+                                but usually numbers in the hundreds to the thousands</li>
+                            <li>Oars, The "Continent Puller": The corpse of a Giant that's four times the size of a
+                                normal Giant. Currently lifeless, but previously held Luffy's shadow</li>
+
+                        </ul>
+                    </div>
+                    <hr>
+                    <div class="crew-title">
+                        <h3 id="11">11-The New Giant Warrior Pirates</h3>
+                    </div>
+                    <p>
+                        In the world of One Piece, the Giants have always been a mysterious race of warriors known for
+                        their absurd natural battle prowess. In fact, the legend of Dorry and Broggy, the two captains
+                        of the Giant Warrior Pirates, has been elaborated on more and more ever since their initial
+                        appearance at Little Garden. And, for numerous reasons.
+
+                        Now, The New Giant Warrior Pirates are a crew made up entirely of Giants and are a spiritual
+                        revival of the Giant Warrior Pirates that were previously mentioned. There are only five of them
+                        so far, led by Hajrudin. But, just like Luffy`s crew, each one is likely able to handle hundreds
+                        of normal fighters on their own. Lastly, like most of the notable pirate crews not associated
+                        with the Four Emperors, they are also part of the Straw Hat Grand Fleet.
+                    </p>
+                    <div class="crew-members">
+                        <h4>Notable Crew Members</h4>
+                        <ul>
+                            <li>Hajrudin: Unknown Bounty, Captain</li>
+                            <li>Road: Unknown Bounty, Navigator</li>
+                            <li>Goldberg: Unknown Bounty, Cook</li>
+                            <li>Gerd: Unknown Bounty, Doctor</li>
+                            <li>Stansen: Unknown Bounty, Shipwright, was the Giant Silvers Rayleigh saved from the
+                                slavers in Sabaody Archipelago</li>
+
+                        </ul>
+                    </div>
+                    <hr>
+                    <div class="crew-title">
+                        <h3 id="12">12-Buggy's Delivery AKA The "Pirate Dispatch Organization"</h3>
+                    </div>
+                    <p>
+                        If this list was made before the time, the crew of Buggy the Clown wouldn`t be anywhere near it,
+                        since they were one of the weakest pirate groups that Luffy encountered early on in his
+                        adventures. Sure, Buggy`s Chop-Chop DF is pretty useful, but his combat ability and overall
+                        cowardice lead him to avoid most fights he isn`t absolutely sure he can win. That said, after
+                        the events of Impel Down, the Marineford War, and the timeskip, Buggy the Clown has lucked his
+                        way into building up an organization all his own called Buggy's Delivery.
+
+                        Before the Seven Warlords system was disbanded, Buggy was able to operate this Pirate Mercenary
+                        service while sanctioned by the Marines. And, this rather large collaboration between pirates
+                        includes criminals from all levels of Impel Down, Devil Fruit users like Alvida and Mr. 3, and
+                        (for a time) included some Giants as well. It`s not a crew made up of big-name pirates, but
+                        there are thousands of them. And, they all swear by Buggy`s leadership, which makes sense, given
+                        the popularity Buggy somehow manages to hold on to.
+                    </p>
+                    <div class="crew-members">
+                        <h4>Notable Crew Members</h4>
+                        <ul>
+                            <li>Ex-Warlord Buggy The Star Clown: 3,189,000,000 Beli Bounty</li>
+                            <li>Mr.3 AKA Galdino: 24,000,000 Beli Bounty and Devil Fruit user</li>
+                            <li>"Iron Mace" Alvida: 5,000,000 Beli Bounty and Devil Fruit user</li>
+                            <li>Mohji "The Beast Tamer": Unknown Bounty, First Mate</li>
+                            <li>Cabaji "The Acrobat": Unknown Bounty, Chief of Staff</li>
+                            <li>Many Of The Powerful Pirates From Impel Down: Total Bounty, unknown</li>
+
+                        </ul>
+                    </div>
+                    <hr>
+                    <div class="crew-title">
+                        <h3 id="13">13-The Tontatta Pirates</h3>
+                    </div>
+                    <p>
+                        The Tontatta Pirates are yet another crew underneath Straw Hat Luffy, as there aren`t many crews
+                        in the New World in general who isn`t “part” of the Four (now tentatively five) Emperors in some
+                        way. The Tontatta Pirates are made up entirely of 200 dwarves from Dressrosa, under the command
+                        of The "Warrior" Leo, wielder of the Sew-Sew Devil Fruit.
+
+                        The thing is, each of these tiny creatures has strength far surpassing that of an average man,
+                        being able to wreck entire buildings singlehandedly in an instant. Plus, they`re absurdly fast,
+                        innately stealthy, and overall very capable warriors. And, outside of Leo, this crew has two
+                        other Devil Fruit users as well. Honestly, if these dwarves weren't so hopelessly trusting, they
+                        could easily become one of the most fearsome crews in the New World (outside of the Four
+                        Emperors).
+                    </p>
+                    <div class="crew-members">
+                        <h4>Notable Crew Members</h4>
+                        <ul>
+                            <li>"Warrior" Leo: Unknown Bounty, Captain, and Devil Fruit user</li>
+                            <li>Bomba and Rampo: Unknown Bounty, the crew's two Vice-Chiefs</li>
+                            <li>Bian: Leader of the "Pink Bee" Squad and Devil Fruit user</li>
+                            <li>Kabu: Leader of the "Yellow Kabu" Squad and Devil Fruit user</li>
+
+                        </ul>
+                    </div>
+                    <hr>
+                    <div class="crew-title">
+                        <h3 id="14">14-The Treasure Pirates</h3>
+                    </div>
+                    <p>
+                        Quite frankly, a lot of the villains in One Piece movies aren`t fellow pirates, but rather
+                        people that are not part of any organization or marines. Yet, The Treasure Pirates, the crew
+                        that function as the antagonists of the Heart of Gold special that would later tie into the plot
+                        of One Piece, Film: Gold, are an exception.
+
+                        Most of the crew is about as forgettable as many of the pirate crews in One Piece, but Captain
+                        Mad Treasure, as well as his two trusted companions Psycho P and Naomi Drunk, are all pretty
+                        powerful. They were able to put up pretty decent fights against Zoro, Sanji, and Luffy.
+
+                        They`re near the bottom of this ranking in terms of strength, and the last time viewers saw them
+                        they were still stuck inside a giant Sea King angler fish, but they are still assumedly active
+                        and could very easily survive on their own in the New World.
+                    </p>
+                    <div class="crew-members">
+                        <h4>Notable Crew Members</h4>
+                        <ul>
+                            <li>Mad Treasure: Unknown Bounty, Captain, held his own against Luffy when he was at a
+                                500,000,000 Million Beli Bounty</li>
+                            <li>Naomi Drunk: Unknown Bounty, Sniper</li>
+                            <li>Psycho P: Unknown Bounty, Elite Crew Member, and Devil Fruit user</li>
+
+                        </ul>
+                    </div>
+                    <hr>
+                    <div class="crew-title">
+                        <h3 id="15">15-The Yonta Maria Grand Fleet</h3>
+                    </div>
+                    <p>
+                        Not much is known about the Yonta Maria Grand Fleet, other than the fact it is 4500 strong and
+                        has 56 ships all led by one man, Orlumbus the Adventurer. After the events of Dressrosa,
+                        Orlumbus also pledged his loyalty to the Straw Hat Grand Fleet and went back to his home island,
+                        the Standing Kingdom to resign from his position and become a pirate.
+
+                        Outside of Orlumbus himself, who was strong enough to fair pretty well in the Dressrosa
+                        Coliseum, not much is known about the strength of his crew. But the sheer number of them and the
+                        fact that they`ve survived in the New World implies this is a much different situation than Don
+                        Krieg`s crew, which had numbers but almost no "real" strength.
+                    </p>
+                    <div class="crew-members">
+                        <h4>Notable Crew Members</h4>
+                        <ul>
+                            <li>"Massacre Ruler" Orlumbus: 148,000,000 Beli Bounty</li>
+                            <li>Columbus: Unknown Bounty, trusted by Orlumbus</li>
+
+                        </ul>
+                    </div>
+                    <hr>
+
+                    <br>
+
+                    <table>
+                        <tr>
+                          <th>Monkey D. Luffy</th>
+                          <th>Portages D. Ace</th>
+                          <th>Sabo</th>
+                        </tr>
+                        <tr>
+                          <td>Straw Hat Pirates Captain</td>
+                          <td>11e Commander of White Beard Pirates</td>
+                          <td>Revolutionary Army's Chief of Staff</td>
+                        </tr>
+                        <tr>
+                          <td>Hito Hito no Mi Model: Nika</td>
+                          <td>Passed Away</td>
+                          <td>Flame-Flame Fruit User</td>
+                        </tr>
+                      </table>
+
+                </div>
+            </div>
+        </div>
+        <button class="top-button"><a href="#top">Go to Top</a></button>
+    </div>
+
+    <script>
+        function searchAndScroll() {
+            
+            var searchWord = document.getElementById('searchInput').value.toUpperCase(); 
+            
+            var textElements = document.querySelectorAll('h3,h2,h4,p,li');
+            
+            
+            for (var i = 0; i < textElements.length; i++) {
+                var text = textElements[i].innerHTML;
+
+                if (text.toUpperCase().includes(searchWord)) {
+                    console.log("=====>")
+                    textElements[i].scrollIntoView();
+                    break;
+                }
+            }
+        }
+        // document.getElementById('searchButton').addEventListener('click', searchAndScroll);
+
+
+    </script>
+
+
+
+
+</body>
+
+</html>
