@@ -520,7 +520,17 @@
 
                 if (text.toUpperCase().includes(searchWord)) {
                     console.log("=====>")
+                    //Scroll to element
                     textElements[i].scrollIntoView();
+
+                    //Add highlight class
+                    textElements[i].classList.add('highlight');
+
+                    //Remove the highlight after 3 sec
+                    setTimeout(function(element) {
+                        element.classList.remove('highlight');
+                    }, 1000, textElements[i]);
+
                     break;
                 }
             }

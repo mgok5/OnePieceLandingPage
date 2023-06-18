@@ -85,3 +85,7 @@ table, th, td {
     text-align: center;
     width: auto;
   }
+
+.highlight {
+    background-color: rgb(233, 233, 7);
+}
